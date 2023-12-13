@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестова сторінка</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Lato:400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h1 {
+            font-weight: 700;
+            color: #333;
+            font-size: 2em;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(45deg, #567eee, #f10977);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .box:hover {
+            transform: translateX(50px);
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #55acee;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #6fc1ff;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Лабораторна робота №6</h1>
+
+<div class="box"></div>
+<button class="button">Жмякни, пліз</button>
+
+<div class="content">
+    <p>Растрове зображення</p>
+    <img src="https://img.freepik.com/free-vector/calligraphic-black-heart-shape_78370-3095.jpg?size=338&ext=jpg&ga=GA1.1.1579000110.1701684621&semt=ais" alt="Растрове зображення" style="width:100px;height:100px;">
+    <p>Векторне зображення</p>
+    <img src="https://img.freepik.com/free-vector/calligraphic-black-heart-shape_78370-3095.jpg?t=st=1702498624~exp=1702499224~hmac=033af5cd2e4d90435b77851d4afa81f5b9d2b72d342f3d6310e41f87ec332c4c" alt="Векторне SVG зображення" style="width:100px;height:100px;">
+</div>
+
+</body>
+</html>
